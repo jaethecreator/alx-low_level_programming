@@ -1,3 +1,2 @@
 #!/bin/bash
-vi $CFILE.c
 gcc $CFILE.c -o c
