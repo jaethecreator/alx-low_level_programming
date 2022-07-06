@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * 	  print "\"Programming is like a mulilingual puzzle"
+ * print "\"Programming is like a mulilingual puzzle"
  * return: 0 on success
  */
 int main(void)
