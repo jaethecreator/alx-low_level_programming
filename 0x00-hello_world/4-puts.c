@@ -2,7 +2,6 @@
 
 /**
  * main - entry point
- * *random commentss to please yall
  * return: Always 0 (success)
  */
 int main(void)
