@@ -2,7 +2,8 @@
 
 /**
  * main - entry point 
- * return: 0 on success
+ * test and fuck off
+ * Return: Always 0 (success)
  */
 int main(void)
 {
