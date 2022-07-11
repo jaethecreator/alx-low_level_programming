@@ -3,11 +3,10 @@
 
 #include <time.h>
 
-/* more headers goes there */
-
-
-
-/* betty style doc for function main goes there */
+/**
+ * main - entrypoint
+ * Return - 0 on success
+ * */
 
 int main(void)
 
@@ -22,11 +21,11 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 
 				printf("%d\n", n );
-				if ( n > 0)
+				if (n > 0)
 					{ 
 						printf("%d is positive", n );
 					}
-				else if ( n == 0)
+				else if (n == 0)
 				{
 					printf("%d is zero", n );
 				}
