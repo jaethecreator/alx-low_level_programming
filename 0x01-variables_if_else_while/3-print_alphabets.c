@@ -6,13 +6,17 @@
  * return 0 on success
  */
 
-int main(void)
+int main()
 {
-	char alp;
+	char alp = 'a';
 
-	for (alp = 'a'; alp <= 'z'; alp++)
+	while (alp <= 'z')
+	{
 		putchar(alp);
-		putchar('\n');
-
+			alp++;
+	
+	}
+	putchar('\n');
 	return (0);
+
 }
