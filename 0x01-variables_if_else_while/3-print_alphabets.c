@@ -9,12 +9,18 @@
 int main()
 {
 	char alp = 'a';
+	char al = 'A';
 
 	while (alp <= 'z')
 	{
 		putchar(alp);
 			alp++;
 	
+	}
+	while (al <= 'Z')
+	{
+		putchar(al);
+		al++;
 	}
 	putchar('\n');
 	return (0);
