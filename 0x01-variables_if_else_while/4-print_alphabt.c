@@ -18,9 +18,9 @@ int main(void)
 		if (as != E && as != Q)
 		putchar(as);
 		as++;
-		putchar('\n');
+		
 	}
 	while (as <= 'z');
-		
+	putchar('\n');	
 	return (0);
 }
