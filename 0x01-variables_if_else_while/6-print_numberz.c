@@ -1,10 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-/**
- * main - Entry point
- *
- * Return: 0 on success
- */
+
 
 int main(void)
 
@@ -14,9 +12,9 @@ int main(void)
 	a = 0;
 
 	while (a < 10)
-	{printf("%d", a);
+	{putchar(a);
 	a++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
